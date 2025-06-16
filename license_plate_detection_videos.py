@@ -84,7 +84,7 @@ def process_video(video_path, output_dir="images"):
             break
             
         # Process every 5th frame to speed things up (adjust as needed)
-        if frame_idx % 5 == 0:
+        if frame_idx % 25 == 0:
             print(f"Processing frame {frame_idx}/{frame_count}")
             
             # Preprocess the frame
